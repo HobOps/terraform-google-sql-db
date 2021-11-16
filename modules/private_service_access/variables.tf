@@ -51,5 +51,5 @@ variable "labels" {
 variable "name" {
   description = "Optional name of the google_compute_global_address"
   type        = string
-  default     = ""
+  default     = null
 }
